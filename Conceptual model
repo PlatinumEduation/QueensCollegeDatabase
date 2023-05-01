@@ -1,0 +1,52 @@
+# Conceptual model: 
+**It's a digram model that represent the `relationships and entities of the database`**.
+**It contains `entities, attributes, and the relationships between the entities`**
+
+#### Departement Table :
+- DepartmentID (primary key)
+- DepartmentName
+- InstructorManagerID (foreign key)
+
+#### Instructor Table :
+- InstructorID (primary key)
+- InstructorName
+- Email
+- Phone
+- DepartmentID (foreign key)
+
+#### Course Table :
+- CourseID (primary key)
+- CourseName
+- Credits
+- DepartmentID (foreign key)
+
+#### Class Table:
+- ClassID (primary key)
+- CourseID (foreign key)
+- InstructorID (foreign key)
+- BuildingLocationID (foreign key)
+- RoomLocationID (foreign key)
+- ModeOfInstructionID (foreign key)
+- StartDate
+- EndDate
+- StartTime
+- EndTime
+- DayOfWeek
+
+#### Building Location Table:
+- BuildingLocationID (primary key)
+- BuildingName
+
+#### Room Location Table:
+- RoomLocationID (primary key)
+- RoomName
+- Capacity
+- BuildingLocationID (foreign key)
+
+#### Mode Of Instruction Table:
+- ModeOfInstructionID (primary key)
+- ModeOfInstructionName
+
+
+
+

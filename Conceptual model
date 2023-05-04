@@ -5,7 +5,7 @@
 #### Departement Table :
 - DepartmentID (primary key)
 - DepartmentName
-- InstructorManagerID (foreign key)
+- InstructorID (foreign key)
 
 #### Instructor Table :
 - InstructorID (primary key)

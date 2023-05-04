@@ -12,7 +12,6 @@
 - InstructorName
 - Email
 - Phone
-- DepartmentID (foreign key)
 
 #### Course Table :
 - CourseID (primary key)
